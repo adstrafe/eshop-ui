@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-import { FormLayout } from '../layout';
+import FormLayout from '../layout';
 
 import "./SignInForm.css";
 
-export const SignInForm = () => {
+export default function SignInForm() {
 	return (
 		<FormLayout header='Sign in'>
 			<form>

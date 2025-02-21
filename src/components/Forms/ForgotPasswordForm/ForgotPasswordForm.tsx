@@ -1,12 +1,11 @@
-import { FormLayout } from '../layout';
+import FormLayout from '../layout';
 
 import './ForgotPasswordForm.css';
 
-export const ForgotPasswordForm = () => {
+export default function ForgotPasswordForm() {
 	return (
 		<FormLayout
 			header='Forgotten password'
-			info='Enter your email and we will send you a reset link.'
 		>
 			<form>
 				<input
